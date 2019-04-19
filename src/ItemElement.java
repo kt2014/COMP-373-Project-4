@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface ItemElement {
+    public int accept(Visitor visitor);
 }
+
